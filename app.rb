@@ -1,3 +1,4 @@
+require 'sinatra'
 require 'sinatra/base'
 
 class Lessons < Sinatra::Base
