@@ -9,8 +9,7 @@ class Lessons < Sinatra::Base
   end
 
   get '/' do
-    status, headers, body = call env.merge("PATH_INFO" => '/week/1')
-    [status, headers, body]
+    markdown :index
   end
 
   get '/week/1' do
