@@ -10,7 +10,7 @@ class Lessons < Sinatra::Base
 
   get '/' do
     status, headers, body = call env.merge("PATH_INFO" => '/week/1')
-    [status, headers, body.map(&:upcase)]
+    [status, headers, body]
   end
 
   get '/week/1' do
