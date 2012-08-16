@@ -15,20 +15,33 @@
 
 ![](/img/programming-word-cloud.png)
 
-* **PHP** - Designed to be embedded inside HTML to build dynamic Web pages or update them from databases.
-* **Java** - Cross-platform applications. For web services and mobile phone apps under Android.
+* **PHP** - Designed to be embedded inside HTML to build dynamic Web pages or update them from databases. --- 1995
 
-* **Javascript** - For interactivity in web pages and applications. This has no relation to Java.
+* **Java** - Cross-platform applications. For web services and mobile phone apps under Android. --- 1995
 
-* **Ruby** - Designed with simplicity in mind. It is interpreted, and has a proprietary but extensible library.
+* **Javascript** - For interactivity in web pages and applications. This has no relation to Java. --- 1995
 
-* **C#** - Concurrent to java, runs on .NET or compatible platforms. Windows development is done with C/C++/C#.
+* **Ruby** - Designed with simplicity in mind. It is interpreted, and has a proprietary but extensible library. --- 1995
 
+* **C** - Arguably one of the most important compiled imperative languages. It is typically the fastest programming langauge for general tasks and almost all operating sytems are written in it. Additionally, most programming languages (including Ruby) are partly written in C. Lastly, C has given rise to number of languages: C++, C#, and Objective C. --- 1972
+
+* **C#** - Concurrent to java, runs on .NET or compatible platforms. Windows development is done with C/C++/C#. ---2001
+
+#### How old are computer languages?
+Most of the current popular programming languages are no older than 20 years. However, some languages like `FORTRAN`  and `LISP` are over 50 years old and are currently still in use. For some perspective, _the internet as we know it is about 20 years old_. In fact, the internet is largely responsible for the growth in software langauges.
+
+#### What is the craziest computer language?
+This is subjective, but I think programming languages that are being developed for quntum computers (yes, that's right, quantum mechanics, teleportation, and other quantum phenomena can be manipulated with programming languages).
+
+#### What is the `best` programming language?
+Wrong question because you'll get 20 different answers from 10 different developers.
 
 
 ### Glossary of Common Terms
 
-**Compiler** - A compiler is a program that reads the program you have written (the "code") and translates it according to the language specs into an executable program.
+**Compiler** - A compiler is a program that reads the program you have written (the "code") and translates it according to the language specs into an executable program. --- Java, C, C#.
+
+**Interpreter** - An Interpreter allows you to execute code without having to write it to a compiled file first. --- PHP, Ruby, Javascript.
 
 **Database** - A database is a file that holds information in a structured way, in some respects similiar to a spreadsheet. They are often used in programming to store data and to retrieve that data back for use by the program.
 
