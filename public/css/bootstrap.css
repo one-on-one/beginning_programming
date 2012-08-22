@@ -670,7 +670,7 @@ cite {
   font-style: normal;
 }
 
-code,
+/*code,
 pre {
   padding: 0 3px 2px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -715,7 +715,7 @@ pre code {
   color: inherit;
   background-color: transparent;
   border: 0;
-}
+}*/
 
 .pre-scrollable {
   max-height: 340px;
