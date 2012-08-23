@@ -2,3 +2,18 @@ h1 {
   font-weight: 300;
   font-size: 26px;
 }
+h4 {
+  margin-bottom: 10px;
+}
+.try-it {
+  float: right;
+  width: 125px;
+  margin-top: -39px;
+  margin-right: 5px;
+}
+blockquote.tip {
+  background-color: #fffbca;
+  border-color: #3da2d7;
+  padding: 3px 10px 7px;
+  font-style: italic;
+}
