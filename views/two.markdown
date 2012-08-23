@@ -110,7 +110,7 @@ The wonderful thing about hashes is that you are able to access values based on 
 
 <a href="http://repl.it/Cfl" target="_blank" class="btn btn-mini btn-info try-it">Run Example Code</a>
 
-Hashes can have any data type as a value, but the keys must be a `String`. Here's a more complex example of a hash:
+Hashes can have any data type as a key and value, but typically keys must are String. Here's a more complex example of a hash:
 
 <script src="https://gist.github.com/3431725.js?file=w2-e6.rb"></script>
 
