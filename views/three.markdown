@@ -76,3 +76,6 @@ A web hosting service is a type of internet hosting service that allows individu
   * Cloud
 
 <img src="/img/cat-on-back.png" />
+
+https://devcenter.heroku.com/articles/ruby
+https://devcenter.heroku.com/articles/rack
