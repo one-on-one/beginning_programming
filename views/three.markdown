@@ -197,7 +197,7 @@ We will be using [Heroku](http://www.heroku.com/) to deploy a simple web applica
 ## Homework
 
 Build your own application and deploy it to Heroku.
-Make something different an unique once you get the basics down.
+Make something different and unique once you get the basics down.
 
 ---
 
