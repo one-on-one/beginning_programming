@@ -9,7 +9,7 @@
 
 "Web development" is a broad term for the work involved in developing a web site.
 
-### [Languages](http://en.wikipedia.org/wiki/Web_development)
+### [Languages & Markup](http://en.wikipedia.org/wiki/Web_development)
 
   * HTML
   * CSS
@@ -170,6 +170,9 @@ We will be using [Heroku](http://www.heroku.com/) to deploy a simple web applica
 
 1. Run the application.<br />
    `$rackup`
+
+1. View the application from the console.
+   <script src="https://gist.github.com/3530540.js?file=gistfile1.sh"></script>
 
 1. View the application in a browser at: [http://localhost:9292](http://localhost:9292)
 
