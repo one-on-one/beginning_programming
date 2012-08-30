@@ -3,9 +3,42 @@
   Week 3 - Aug 30, 2012
 </small>
 
-## Programming is more <br /> than knowing a language
+## Programming is more than knowing<br /> a programming language
 
 ![](/img/space-shuttle.jpg)
+
+### [Languages](http://en.wikipedia.org/wiki/Web_development)
+
+"Web development" is a broad term for the work involved in developing a web site.
+
+  * HTML
+  * CSS
+  * JavaScript
+  * PHP, Ruby, Python, Java, etc...
+  * SQL
+
+### Developer Tools
+
+  * Text Editors / IDEs
+
+    * VIM
+    * Emacs
+    * Sublime
+    * TextMate
+    * RubyMine
+
+  * Version Control
+
+    * GIT
+    * Subversion
+    * Mercurial
+
+  * Misc
+
+    * Shells
+    * Visual Diff
+    * etc...
+
 
 ### <a href="http://en.wikipedia.org/wiki/Server_(computing)">Servers</a>
 
@@ -24,6 +57,16 @@ Software that helps to deliver web content that can be accessed through the inte
   * Apache
   * Nginx
   * IIS
+
+### [Databases](http://en.wikipedia.org/wiki/Database)
+
+A database is software that holds an organized collection of data.
+
+  * MySQL
+  * PostgreSQL
+  * Oracle
+  * SQL Server
+  * MongoDB
 
 *Often act as a [reverse proxy](http://en.wikipedia.org/wiki/Reverse_proxy).*
 
@@ -56,16 +99,6 @@ It aims to alleviate the overhead associated with common programming activities.
   * Django
   * ASP.NET
 
-### [Languages](http://en.wikipedia.org/wiki/Web_development)
-
-"Web development" is a broad term for the work involved in developing a web site.
-
-  * HTML
-  * CSS
-  * JavaScript
-  * PHP, Ruby, Python, Java, etc...
-  * SQL
-
 ### [Hosts](http://en.wikipedia.org/wiki/Web_host)
 
 A web hosting service is a type of internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web.
@@ -82,7 +115,7 @@ A web hosting service is a type of internet hosting service that allows individu
 
     * [Rackspace](http://www.rackspace.com/cloud/)
     * [Microsoft](http://www.windowsazure.com/en-us/)
-
+    * [AppFog](http://www.appfog.com/)
 
 ## Don't worry... <br />its not as hard as it sounds
 
@@ -90,7 +123,11 @@ A web hosting service is a type of internet hosting service that allows individu
 
 Thank goodness for the "cloud"
 
-[51 percent of people believe stormy weather can interfere with cloud computing.](http://www.citrix.com/English/NE/news/news.asp?newsID=2328309)
+---
+
+["51 percent of people believe stormy weather can interfere with cloud computing.""](http://www.citrix.com/English/NE/news/news.asp?newsID=2328309)
+
+---
 
 ## Lets Make an App
 
@@ -104,7 +141,8 @@ We will be using [Heroku](http://www.heroku.com/) to deploy a simple web applica
 
   * [Ruby](http://www.ruby-lang.org/en/)
   * [RubyGems](http://docs.rubygems.org/read/book/1) - *most installers will include this*
-  * The [Bundler GEM](http://gembundler.com/)
+  * The [Bundler GEM](http://gembundler.com/) - `$gem install bundler`
+  * [GIT](http://git-scm.com/) - version control
 
 #### Other tools worth looking into
 
@@ -132,6 +170,25 @@ We will be using [Heroku](http://www.heroku.com/) to deploy a simple web applica
 
 1. Run the application.<br />
    `$rackup`
+
+1. View the application in a browser at: [http://localhost:9292](http://localhost:9292)
+
+## Deploy the App
+
+1. Initialize a Git repository to capture the changes we make to the application.<br />
+   `$git init`
+
+1. Save our changes in the Git repo.<br />
+   `$git add .`<br />
+   `$git commit -m "Initial commit."`<br />
+
+1. Create a Heroku deployment for the app.<br />
+   `$heroku create`
+
+1. Deploy the app to Heroku.<br />
+   `$git push heroku master`
+
+1. View the deployed application in a browser by navigating to the URL Heroku assigned to the app.
 
 
 
