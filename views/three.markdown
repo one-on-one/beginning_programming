@@ -3,7 +3,7 @@
   Week 3 - Aug 30, 2012
 </small>
 
-### Programming is more than knowing a language
+## Programming is more <br /> than knowing a language
 
 ![](/img/space-shuttle.jpg)
 
@@ -73,9 +73,69 @@ A web hosting service is a type of internet hosting service that allows individu
   * Shared
   * Dedicated
   * VPS
-  * Cloud
+  * [Cloud](http://en.wikipedia.org/wiki/Cloud_computing) - The use of hardware and software that are delivered as a service over the internet.
+
+    * [Amazon](http://aws.amazon.com/)
+
+      * [Heroku](http://www.heroku.com/)
+      * [EngineYard](http://www.engineyard.com/)
+
+    * [Rackspace](http://www.rackspace.com/cloud/)
+    * [Microsoft](http://www.windowsazure.com/en-us/)
+
+
+## Don't worry... <br />its not as hard as it sounds
 
 ![](/img/cat-on-back.jpg)
+
+Thank goodness for the "cloud"
+
+[51 percent of people believe stormy weather can interfere with cloud computing.](http://www.citrix.com/English/NE/news/news.asp?newsID=2328309)
+
+## Lets Make an App
+
+We will be using [Heroku](http://www.heroku.com/) to deploy a simple web application.
+
+### What you will need
+
+* A free user account with [Heroku](https://api.heroku.com/signup).
+
+* Also, the following items need to be installed on your computer.
+
+  * [Ruby](http://www.ruby-lang.org/en/)
+  * [RubyGems](http://docs.rubygems.org/read/book/1) - *most installers will include this*
+  * The [Bundler GEM](http://gembundler.com/)
+
+#### Other tools worth looking into
+
+* [rvm](https://rvm.io/) - for mac & linux
+* [pik](https://github.com/vertiginous/pik/) - for windows
+
+## Write the App
+
+1. Create a directory named `random_string`
+
+1. Open a [console](http://en.wikipedia.org/wiki/System_console) and change directories to `random_string`.<br />
+
+1. Create a file named `Gemfile` inside of the `random_string` directory.
+
+1. Edit `Gemfile` to look like the example below.
+   <script src="https://gist.github.com/3527573.js?file=Gemfile"></script>
+
+1. Run bundler to install the gems specified in the `Gemfile`.<br />
+   `$bundle`
+
+1. Create a file named `config.ru` inside of the `random_string` directory.
+
+1. Edit `config.ru` to look like the example below.
+   <script src="https://gist.github.com/3528152.js?file=config.ru"></script>
+
+1. Run the application.<br />
+   `$rackup`
+
+
+
+
 
 
 ---
