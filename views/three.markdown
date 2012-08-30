@@ -1,11 +1,11 @@
-<h1>Making a simple site</h1>
+<h1>Making a Simple Site</h1>
 <small class="article-source">
   Week 3 - Aug 30, 2012
 </small>
 
-## Programming is more than knowing a language
+### Programming is more than knowing a language
 
-<img src="/img/space-shuttle.png" />
+![](/img/space-shuttle.jpg)
 
 ### <a href="http://en.wikipedia.org/wiki/Server_(computing)">Servers</a>
 
@@ -75,7 +75,12 @@ A web hosting service is a type of internet hosting service that allows individu
   * VPS
   * Cloud
 
-<img src="/img/cat-on-back.png" />
+![](/img/cat-on-back.jpg)
 
-https://devcenter.heroku.com/articles/ruby
-https://devcenter.heroku.com/articles/rack
+
+---
+
+##### Helpful Links
+
+<small>[https://devcenter.heroku.com/articles/ruby](https://devcenter.heroku.com/articles/ruby)</small><br/>
+<small>[https://devcenter.heroku.com/articles/rack](https://devcenter.heroku.com/articles/rack)</small><br/>
