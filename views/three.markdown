@@ -7,9 +7,9 @@
 
 ![](/img/space-shuttle.jpg)
 
-### [Languages](http://en.wikipedia.org/wiki/Web_development)
-
 "Web development" is a broad term for the work involved in developing a web site.
+
+### [Languages](http://en.wikipedia.org/wiki/Web_development)
 
   * HTML
   * CSS
