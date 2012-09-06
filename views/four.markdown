@@ -45,10 +45,10 @@ What do we see? Now apply the `.ancestors` method to it.
 ### Bonus
 Can anyone guess what class the `.ancestors` method belongs to?
 
-## [Methods](http://en.wikipedia.org/wiki/Method_(computer_science) <small>look behind the curtain</small>
+## [Methods](http://en.wikipedia.org/wiki/Method_(computer_science)) <small>look behind the curtain</small>
 
 * What is a method?
-  A peice of code that executes other code, defined with `def ... end`.
+  * A peice of code that executes other code, defined with `def ... end` and belonging to a class.
 
 Create a method called `hello`
 
@@ -56,12 +56,12 @@ Create a method called `hello`
       "whatup!"
     end
 
-* Scope = Refers to what us inside the method `def ... end`
+* Scope = Refers to what is inside the method `def ... end`
 
 ## [Classes](http://en.wikipedia.org/wiki/Class_(computer_programming) <small>look behind the curtain</small>
 
 * What is a class?
-  Think of it as a contianer similar to hashes and arrays, except a class typically contains methods.
+  * Think of it as a container similar to hashes and arrays, except a class typically contains methods.
 
 Create a class called `NewClass`
 
