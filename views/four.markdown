@@ -60,6 +60,7 @@ Create a method called `hello`
 Create a class called `NewClass`
 
     class NewClass
+      puts self #let's not focus too much on self, but I want to introduce it for future reference
     end
 
 ### Why should I use a class?
@@ -94,9 +95,9 @@ Follow these steps:
 
 Then write the following
 
-
+    # ingore for now the self. before the method; there's a link below if you are really curious
     class NewClass
-      def put_the_hello_method_we_created_before_here
+      def self.put_the_hello_method_we_created_before_here
         #But get rid of the 'puts'
       end
     end
@@ -138,4 +139,5 @@ Go back to `config.ru`
 <small>[Ruby Class](http://www.ruby-doc.org/core-1.9.3/Class.html)</small><br/>
 <small>[Ruby Method Class](http://www.ruby-doc.org/core-1.9.3/Method.html)</small><br/>
 <small>[Type Introspection](http://en.wikipedia.org/wiki/Type_introspection)</small><br/>
+<small>[Self in Ruby](http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/)</small><br/>
 <small>[Stack Overflow](hhttp://stackoverflow.com/questions/tagged/ruby</small)<br/>
