@@ -36,7 +36,7 @@ and the `nil class`. Don't worry about this terminology.
 Now do this in `irb`:
 
     def hello
-      puts "hello"
+      "hello"
     end
 
     hello
@@ -51,7 +51,7 @@ Can anyone guess what class the `.ancestors` method belongs to?
 Create a method called `hello`
 
     def hello
-      puts "whatup!"
+      "whatup!"
     end
 
 * Scope = begin inside the method `def ... end`
@@ -60,7 +60,7 @@ Create a method called `hello`
 Create a class called `NewClass`
 
     class NewClass
-      puts self #let's not focus too much on self, but I want to introduce it for future reference
+      self #let's not focus too much on self, but I want to introduce it for future reference
     end
 
 ### Why should I use a class?
@@ -98,7 +98,7 @@ Then write the following
     # ingore for now the self. before the method; there's a link below if you are really curious
     class NewClass
       def self.put_the_hello_method_we_created_before_here
-        #But get rid of the 'puts'
+
       end
     end
 
