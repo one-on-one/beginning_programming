@@ -1,6 +1,6 @@
 <h1>Classes and Methods: "Down the rabbit hole" OR "Curiouser and curiouser!"</h1>
 <small class="article-source">
-  Week 4 - September 06, 2012
+  Week 4 - Sep 06, 2012
 </small>
 
 **Today we will jump right in. We are going to pull back the curtain and look at a bizarre world. We will start looking inside classes and methods in an interactive session with Ruby, we will discuss important concepts and features of Classes and methods and why they are useful, and finally we will write some code. I will also start using technical terms so we can start acclimating to terminology (but I may not define kthese terms). Hold on...**
@@ -142,10 +142,11 @@ Go back to `config.ru`
 
 ##### Helpful Links
 
-<small>[Stack Overflow](hhttp://stackoverflow.com/questions/tagged/ruby</small)<br/>
+<small>[Stack Overflow](http://stackoverflow.com/questions/tagged/ruby)</small><br/>
 <small>[Object Oriented Programming](http://en.wikipedia.org/wiki/Object-oriented_programming)</small><br/>
 
 ##### Difficult Reading:
+
 <small>[Ruby File class: behind the curtain](http://www.ruby-doc.org/core-1.9.3/File.html)</small><br/>
 <small>[Ruby Object: beind the curtain](http://ruby-doc.org/core-1.9.3/Object.html)</small><br/>
 <small>[Ruby Class: behind the curtain](http://www.ruby-doc.org/core-1.9.3/Class.html)</small><br/>
