@@ -3,8 +3,6 @@
   Week 5 - Sep 13, 2012
 </small>
 
-HELLO WORLD!
-
 One of the biggest misconceptions that people have about programmers is that they write everything from scratch. Wrong. Some of the best programmers know when to use other people's code and where to find it.
 
 ### Understanding Libraries
