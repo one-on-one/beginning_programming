@@ -3,6 +3,8 @@
   Week 2 - Aug 23, 2012
 </small>
 
+<iframe width="520" height="292" src="http://www.youtube.com/embed/0a5pq_PGzJQ" frameborder="0" allowfullscreen></iframe>
+
 This week, we will learn about the most common and vital components of programming: Variables, Data Types 
 and Containers. Look at the contact book below. What do you see? After this lesson, look over the image
 again and see if you can view it from a programmers perspective.
