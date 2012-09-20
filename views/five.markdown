@@ -100,6 +100,12 @@ Search for the **happy_birthday** gem and follow the instructions to print out y
 
 ---
 
+#### Homework Answer
+
+<script src="https://gist.github.com/3758887.js?file=week_5_answer.sh"></script>
+
+---
+
 ##### Helpful Links
 
 <small>[Ruby-Toolbox.com](http://www.ruby-toolbox.com/)</small><br/>
