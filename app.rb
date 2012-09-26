@@ -4,7 +4,7 @@ require 'redcarpet'
 
 class Lessons < Sinatra::Base
 
-  latest_week = 6
+  latest_week = 7
   is_prod = Sinatra::Base.environment =~ /prod/
 
   configure do
@@ -81,22 +81,6 @@ class Lessons < Sinatra::Base
       redirect '/not-yet'
     else
       markdown :eight
-    end
-  end
-
-  get '/week/9' do
-    if is_prod && latest_week < 9
-      redirect '/not-yet'
-    else
-      markdown :nine
-    end
-  end
-
-  get '/week/10' do
-    if is_prod && latest_week < 10
-      redirect '/not-yet'
-    else
-      markdown :ten
     end
   end
 
