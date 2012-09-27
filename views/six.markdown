@@ -3,6 +3,8 @@
   Week 6 - Sep 20, 2012
 </small>
 
+<iframe width="520" height="292" src="http://www.youtube.com/embed/V8miMeqWR98" frameborder="0" allowfullscreen></iframe>
+
 ### Discussion
 
 Discuss the following activities:
