@@ -67,7 +67,7 @@ You should see something like this:
 
 <img src="/img/ss_sinatra_1.png" />
 
-The reason you are seeing 'Hello World!' when you visit the URL is because you have told Sinatra that when the `/` (or root) is accessed in the URL with the `GET` method, show 'Hello World!'.
+The reason you are seeing 'Hello World!' when you visit the URL is because you have told Sinatra that when path is `/` (or root path) is accessed in the URL with the `GET` method, show 'Hello World!'.
 
 <blockquote class="tip">Huh? What's the GET method?</blockquote>
 
@@ -97,7 +97,7 @@ In our simple sinatra application, we are displaying the param data provided by 
 
 <blockquote class="tip">
   <a href="http://en.wikipedia.org/wiki/Query_string" target="_blank" class="pull-right">wikipedia</a>
-  HUH? What's a query string?
+  Discuss: What is a query string and path?
 </blockquote>
 
 ![](/img/query_string.png)
