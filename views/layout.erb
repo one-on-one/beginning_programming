@@ -45,9 +45,7 @@
             <li<% if request.env['REQUEST_PATH'] == '/week/5' %> class="active"<% end %>><a href="/week/5">Week 5</a></li>
             <li<% if request.env['REQUEST_PATH'] == '/week/6' %> class="active"<% end %>><a href="/week/6">Week 6</a></li>
             <li<% if request.env['REQUEST_PATH'] == '/week/7' %> class="active"<% end %>><a href="/week/7">Week 7</a></li>
-            <!--
             <li<% if request.env['REQUEST_PATH'] == '/week/8' %> class="active"<% end %>><a href="/week/8">Week 8</a></li>
-            // -->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -75,6 +73,7 @@
 
   <script type="text/javascript" src="/js/jquery-1.8.0.min.js"></script>
   <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/js/gist-numbers.js"></script>
   <script type="text/javascript">
 
     <% unless ENV["RACK_ENV"] =~ /prod/ %>

@@ -4,7 +4,7 @@ require 'redcarpet'
 
 class Lessons < Sinatra::Base
 
-  latest_week = 7
+  latest_week = 8
   is_prod = Sinatra::Base.environment =~ /prod/
 
   configure do
