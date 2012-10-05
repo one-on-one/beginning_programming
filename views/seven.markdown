@@ -3,6 +3,8 @@
   Week 7 - Sep 27, 2012
 </small>
 
+<iframe width="520" height="292" src="http://www.youtube.com/embed/UMIufcpGrx8" frameborder="0" allowfullscreen></iframe>
+
 Over the past six weeks, we have covered the basics of programming using the Ruby language. We have covered important topics such as:
 
 * Variables
