@@ -3,6 +3,8 @@
   Week 8 - Oct 4, 2012
 </small>
 
+<iframe width="520" height="292" src="http://www.youtube.com/embed/3gFqOWJVX2w" frameborder="0" allowfullscreen></iframe>
+
 <blockquote class="tip">Note: If you didn't go over week 7, you should before continuing</blockquote>
 
 <div class="row">
